@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Resource Center</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>WELCOME TO PREVIOUS YEAR PAPER WALLA</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="branch-link">COMPUTER SCIENCE</a></li>
+        <li><a href="#" class="branch-link">ELECTRONICS AND COMMUNICATION</a></li>
+        <li><a href="#" class="branch-link">ELECTRICAL </a></li>
+        <li><a href="#" class="branch-link">MECHANICAL</a></li>
+        <li><a href="#" class="branch-link">CIVIL</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="previous-papers">
+    <h2>Previous Year Papers</h2>
+    <!-- Content for previous year papers will be dynamically loaded here based on branch and semester selection -->
+  </section>
+
+  <section id="book-links">
+    <h2>Book Links</h2>
+    <!-- Content for book links will be dynamically loaded here based on branch and semester selection -->
+  </section>
+
+  <section id="search-section">
+    <h2>Search</h2>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="contribute-section">
+    <h2>Contribute</h2>
+    <form id="contribute-form">
+      <div>
+        <label for="contribute-branch">Branch:</label>
+        <input type="text" id="contribute-branch" placeholder="Enter branch...">
+      </div>
+      <div>
+        <label for="contribute-paper-link">Paper Link:</label>
+        <input type="text" id="contribute-paper-link" placeholder="Enter paper link...">
+      </div>
+      <div>
+        <label for="contribute-book-link">Book Link:</label>
+        <input type="text" id="contribute-book-link" placeholder="Enter book link...">
+      </div>
+      <button type="submit">Contribute</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
